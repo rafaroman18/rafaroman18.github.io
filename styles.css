@@ -85,11 +85,12 @@ p { margin: 0 0 10px; }
 .foot { margin: 48px 0 0; padding-top: 18px; border-top: 1px solid var(--line); font-size: .85rem; }
 
 @media (min-width: 861px) {
-  .profile { max-height: calc(100vh - 88px); overflow-y: auto; scrollbar-width: none; }
+  .profile { height: calc(100vh - 88px); max-height: calc(100vh - 88px); display: flex; flex-direction: column; overflow-y: auto; scrollbar-width: none; }
   .profile::-webkit-scrollbar { display: none; }
   .profile h1 { font-size: 1.8rem; }
   .role { margin-bottom: 14px; }
-  .photo-wrap { width: clamp(150px, calc(100vh - 520px), 240px); margin-bottom: 14px; }
+  .profile > * { flex: none; }
+  .photo-wrap { flex: 0 1 240px; min-height: 80px; width: auto; max-width: 100%; align-self: flex-start; margin-bottom: 14px; }
   .profile p { margin-bottom: 10px; font-size: .9rem; line-height: 1.5; }
   .contact { margin: 12px 0 0; font-size: .88rem; }
   .contact li { padding: 5px 0; }

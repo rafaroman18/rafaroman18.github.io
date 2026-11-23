@@ -261,11 +261,15 @@ window.PORTFOLIO = {
   skills: [
     {
       title: { es: "IA y ML", en: "AI and ML" },
-      tags: ["Deep Learning", "Machine Learning", "LLMs", "LangChain", "GANs", "PyTorch", "TensorFlow", "Keras", "Scikit-Learn"]
+      tags: ["Deep Learning", "Machine Learning", "LLMs", "RAG", "LangChain", "Pydantic", "GANs", "PyTorch", "TensorFlow", "Keras", "Scikit-Learn"]
+    },
+    {
+      title: { es: "Lenguajes", en: "Languages" },
+      tags: ["Python", "Java", "C++", "C#", "SQL"]
     },
     {
       title: { es: "Datos", en: "Data" },
-      tags: ["Python", "Pandas", "Matplotlib", "ETL", "Spark", "Hadoop", { es: "Visualización", en: "Visualization" }]
+      tags: ["Pandas", "Matplotlib", "ETL", "Spark", "Hadoop", { es: "Visualización", en: "Visualization" }]
     },
     {
       title: { es: "Bases de datos", en: "Databases" },
@@ -273,7 +277,7 @@ window.PORTFOLIO = {
     },
     {
       title: { es: "Cloud y herramientas", en: "Cloud and tools" },
-      tags: ["AWS", "Azure", "Docker", "Git", "Agile", "C#"]
+      tags: ["AWS", "Azure", "Docker", "Git", "Agile"]
     },
     {
       title: { es: "Otros", en: "Other" },
